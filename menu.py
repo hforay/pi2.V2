@@ -21,7 +21,7 @@ app = MultiPage()
 
 nav = hy.HydraApp(title='Simple Multi-Page App',hide_streamlit_markers=True,use_navbar=True, navbar_sticky=True)
 
-image = Image.open("C:/Users/msi/Documents/GitHub/PI2OM/image1.png")
+image = Image.open("image1.png")
 st.image(image,width=1400)
 
 def make_hashes(password):
